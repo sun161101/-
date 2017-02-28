@@ -17,8 +17,9 @@
         <th>编  号</th>
         <th>商品名</th>
         <th>进  价</th>
-        <th>库  存</th>
         <th>售  价</th>
+        <th>库  存</th>
+        <th>商品类型</th>
         <th>操  作</th>
     </tr>
     <c:forEach var="commodity" items="${commoditys}">
@@ -26,8 +27,9 @@
             <th>${commodity.id}</th>
             <th>${commodity.name}</th>
             <th>${commodity.inprice}</th>
-            <th>${commodity.count}</th>
             <th>${commodity.outprice}</th>
+            <th>${commodity.count}</th>
+            <th>${commodity.commoditytype.getName()}</th>
             <th><a href="/commodity/${commodity.id}/load">详情</a>|
                 <a href="/commodity/${commodity.id}/update">修改</a>|
                 <a href="/commodity/${commodity.id}/del">删除</a>

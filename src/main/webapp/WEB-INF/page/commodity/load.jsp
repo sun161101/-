@@ -27,15 +27,15 @@
     </tr>
     <tr>
         <th>库存</th>
-        <th>${commoditytype.count}</th>
+        <th>${commodity.count}</th>
     </tr>
     <tr>
         <th>售价</th>
-        <th>${commoditytype.outprice}</th>
+        <th>${commodity.outprice}</th>
     </tr>
     <tr>
         <th>商品类型</th>
-        <th>${commoditytype.type}</th>
+        <th>${commodity.commoditytype.getName()}</th>
     </tr>
 </table>
 </body>

@@ -12,7 +12,7 @@
 </head>
 <body>
 <form action="/commoditytype/add" method="post">
-    商品类型名称：<input type="text" name="name"/>
+    商品类型名称：<input type="text" name="name"/><br/>
     <input type="submit" value=" 提 交 "/>
 </form>
 </body>

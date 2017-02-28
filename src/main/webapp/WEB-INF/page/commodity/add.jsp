@@ -12,11 +12,11 @@
 </head>
 <body>
 <form action="/commodity/add" method="post">
-    商品名称：<input type="text" name="name"/>
-    商品进价：<input type="text" name="inprice"/>
-    商品库存：<input type="text" name="count"/>
-    商品售价：<input type="text" name="outprice"/>
-    商品类型：<input type="text" name="t_id"/>
+    商品名称：<input type="text" name="name"/><br/>
+    商品进价：<input type="text" name="inprice"/><br/>
+    商品售价：<input type="text" name="outprice"/><br/>
+    商品库存：<input type="text" name="count"/><br/>
+    商品类型：<input type="text" name="t_id"/><br/>
     <input type="submit" value=" 提 交 "/>
 </form>
 </body>

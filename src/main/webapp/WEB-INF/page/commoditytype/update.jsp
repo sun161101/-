@@ -13,7 +13,7 @@
 <body>
 <form action="/commoditytype/${commoditytype.id}/update" method="post">
     <%--商品类型编号：<input type="text" name="id" value=${commoditytype.id} readonly="readonly"/>--%>
-    商品类型名称：<input type="text" name="name"/>
+    商品类型名称：<input type="text" name="name" value="${commoditytype.name}"/><br/>
     <input type="submit" value=" 修 改 "/>
 </form>
 </body>
